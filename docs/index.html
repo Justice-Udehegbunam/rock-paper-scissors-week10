@@ -8,22 +8,24 @@
 </head>
 <body>
   <h1>Rock, Paper & Scissors game.</h1>
-    <button>
+  <div class="button-container">
+    <button id="rock-button">
       <img src="assets/rock-emoji.png" alt="rock-emoji">
     </button>
-  <button>
-    <img src="assets/paper-emoji.png" alt="paper-emoji">
-  </button>
- </div>
-    <button>
-      <img src="assets/scissors-emoji.png" alt="scissors-emoji">
+    <button id="paper-button">
+      <img src="assets/paper-emoji.png" alt="paper-emoji">
     </button>
-  <div class="result">
-    <p class="outcome">You lost! Paper wins Rock.</p>
-   <div class="score">
-    <p class="your-score">You : 1</p>
-    <p class="computer-score">Computer : 1</p>
-   </div>
+    <button id="scissors-button">
+      <img src="assets/scissors-emoji.png" alt="scissors-emoji">
+    </button>    
   </div>
+  <div class="result">
+    <p class="js-outcome"></p>
+    <div class="score">
+      <p class="js-result"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
+
